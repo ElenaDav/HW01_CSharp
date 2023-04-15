@@ -6,7 +6,7 @@ int numberB = int.Parse(Console.ReadLine());
 
 if (numberA > numberB)
   {
-    System.Console.WriteLine($"Число {numberA} > числа {numberB}");
+    System.Console.WriteLine($"MAX = {numberA}");
   }
   else if (numberA == numberB)
   {
@@ -14,5 +14,5 @@ if (numberA > numberB)
   }
 else
   {
-    System.Console.WriteLine($"Число {numberB} > числа {numberA}");
+    System.Console.WriteLine($"MAX = {numberB}");
   }
